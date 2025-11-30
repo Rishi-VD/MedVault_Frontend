@@ -15,11 +15,34 @@ body {
   padding: 15px 25px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   position: sticky;
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-button {
+  background-color: white;
+  color: #1a9ff5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #f0f0f0;
 }
 
 .main-header h1 {

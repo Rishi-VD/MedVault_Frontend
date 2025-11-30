@@ -63,6 +63,18 @@
     opacity: 0.9;
 }
 
+.register-form button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
 .login-redirect {
     text-align: center;
     margin-top: 15px;
